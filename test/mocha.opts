@@ -1,0 +1,12 @@
+--require test/misc/app-setup.js
+--require test/misc/dom-setup.js
+--require test/misc/null-extensions.js
+--globals React,Backbone,Define,moment,Cookies,$,_
+--compilers js:babel-register,jsx:babel-register
+--reporter spec
+--recursive
+--colors
+--ui bdd
+--sort
+
+src/scripts/**/*.test.js
